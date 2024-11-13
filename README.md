@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+**Frontend Developer Assignment: React Dashboard**
+Objective: Build a simple dashboard in React.js with TypeScript. The dashboard will include a
+list page displaying sample "Runs" and a details page for each individual "Run."
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run the project first install the dependencies
+**
+npm install @mui/material @emotion/react @emotion/styled react-router-dom
+**
 
-## Available Scripts
+and then run by command
+**
+npm start
+**
 
-In the project directory, you can run:
 
-### `npm start`
+language, Tools & packages used:
+# Runs Dashboard
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A simple dashboard built with React.js, Material-UI, and TypeScript. The dashboard displays a list of sample "Runs" and provides a details page for each individual "Run."
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- List of sample runs displayed on the main page.
+- Clickable items that navigate to a details page for each run.
+- Responsive design using Material-UI.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Material-UI**: A popular React UI framework that provides pre-built components.
+- **React Router**: A library for routing in React applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Setup Instructions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To set up the project locally, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/runs-dashboard.git
+   cd runs-dashboard
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**2. Install dependencies: Make sure you have Node.js installed on your machine. Then run:**
+   
+   npm install @mui/material @emotion/react @emotion/styled react-router-dom
 
-## Learn More
+**3. Start the development server:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**##Usage**
+The main page displays a list of sample runs. Each run shows its Run, description, and date.
+Click on any run to navigate to its details page, which displays more information about the selected run.
